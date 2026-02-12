@@ -1,0 +1,198 @@
+.cc-page {
+  min-height: 100vh;
+  background: #f5f7fb;
+  padding: 18px;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+.cc-card {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 10px 24px rgba(16, 24, 40, 0.08);
+  padding: 16px;
+}
+
+.cc-titleRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.cc-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.cc-subtle {
+  color: #667085;
+  font-size: 13px;
+  margin: 6px 0 0 0;
+}
+
+.cc-inputGroup {
+  display: grid;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.cc-inputWrap {
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 10px 12px;
+  background: #fff;
+}
+
+.cc-label {
+  font-size: 12px;
+  color: #12b76a;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.cc-label.to {
+  color: #ef4444;
+}
+
+.cc-input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  margin-top: 6px;
+  background: transparent;
+}
+
+.cc-inputWrap:focus-within {
+  border-color: rgba(47, 107, 255, 0.75);
+  box-shadow: 0 0 0 4px rgba(47, 107, 255, 0.12);
+}
+
+.cc-primaryBtn {
+  width: 100%;
+  margin-top: 14px;
+  background: #2f6bff;
+  color: #fff;
+  border: none;
+  border-radius: 16px;
+  padding: 14px 16px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.cc-primaryBtn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.cc-loadingCard {
+  margin-top: 14px;
+  border-radius: 18px;
+  background: #fff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 10px 24px rgba(16, 24, 40, 0.08);
+}
+
+.cc-loadingIcon {
+  font-size: 48px;
+  margin-bottom: 8px;
+}
+
+.cc-loadingTitle {
+  font-size: 18px;
+  font-weight: 800;
+  margin: 8px 0 0 0;
+}
+
+.cc-loadingSub {
+  color: #667085;
+  margin-top: 6px;
+}
+
+.cc-chipRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.cc-chip {
+  border: 1px solid #d0d5dd;
+  background: #fff;
+  color: #344054;
+  padding: 8px 12px;
+  border-radius: 999px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.cc-chipActive {
+  border-color: #2f6bff;
+  background: #2f6bff;
+  color: #fff;
+}
+
+.cc-rowBetween {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cc-clearBtn {
+  border: 1px solid #e5e7eb;
+  background: #f9fafb;
+  color: #475467;
+  padding: 6px 10px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.cc-rideItem {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 12px;
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 10px;
+  cursor: pointer;
+}
+.cc-rideItemActive {
+  border-color: #2f6bff;
+  box-shadow: 0 8px 16px rgba(47, 107, 255, 0.18);
+}
+
+.cc-rideTitle {
+  font-weight: 800;
+  margin: 0;
+}
+.cc-rideMeta {
+  color: #667085;
+  font-size: 13px;
+  margin-top: 4px;
+}
+.cc-ridePrice {
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.cc-bottomCTA {
+  position: sticky;
+  bottom: 12px;
+  margin-top: 14px;
+}
+
+.cc-bookBtn {
+  width: 100%;
+  background: #3b2fbf;
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  padding: 14px 16px;
+  font-size: 16px;
+  font-weight: 800;
+  cursor: pointer;
+}
